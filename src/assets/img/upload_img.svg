@@ -1,0 +1,15 @@
+<svg id="upload_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #00b6de;
+      }
+    </style>
+  </defs>
+  <path id="Caminho_11578" data-name="Caminho 11578" class="cls-1" d="M0,0H24V24H0Z"/>
+  <path id="Caminho_11579" data-name="Caminho 11579" class="cls-2" d="M9,16h6V10h4L12,3,5,10H9ZM12,5.83,14.17,8H13v6H11V8H9.83ZM5,18H19v2H5Z"/>
+</svg>

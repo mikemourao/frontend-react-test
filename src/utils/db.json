@@ -1,0 +1,481 @@
+[{
+      "ip": "192.168.247.238",
+      "mac": "e4:5f:01:09:20:89ss",
+      "status": true,
+      "name_station": "Qualidade_01",
+      "name_function": "Chech SN",
+      "logRede": [{
+            "id": "118",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=56.7 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=27.2 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=47.1 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=71.7 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 27.245\/50.737\/71.768\/16.148 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:48:11",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "112",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=567 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=3.84 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=6.50 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=683 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3002ms,rtt min\/avg\/max\/mdev = 3.847\/315.455\/683.476\/312.956 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:47:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "5",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,From 192.168.247.64 icmp_seq=1 Destination Host Unreachable,From 192.168.247.64 icmp_seq=2 Destination Host Unreachable,From 192.168.247.64 icmp_seq=3 Destination Host Unreachable,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3053ms,pipe 4",
+            "status": "1",
+            "created_at": "2021-08-25 09:02:58",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   },
+   {
+      "ip": "192.168.247.237",
+      "mac": "e4:5f:01:09:20:89",
+      "status": false,
+      "name_station": "Qualidade_02",
+      "name_function": "Printer",
+      "logRede": [{
+            "id": "135",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=3.07 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=2.44 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=3.66 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=5.04 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3004ms,rtt min\/avg\/max\/mdev = 2.443\/3.557\/5.046\/0.962 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:53:51",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "134",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=2.52 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=2.63 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=2.64 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=2.58 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3004ms,rtt min\/avg\/max\/mdev = 2.528\/2.598\/2.645\/0.058 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:53:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "133",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=2.50 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=2.96 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=2.71 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=2.43 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3004ms,rtt min\/avg\/max\/mdev = 2.437\/2.652\/2.960\/0.214 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:53:43",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "132",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=2.40 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=2.34 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=108 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=2.41 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 2.348\/28.908\/108.471\/45.935 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:53:39",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "131",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=4.63 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=2.37 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=2.41 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=2.59 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 2.372\/3.003\/4.634\/0.946 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:53:35",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "130",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=3.53 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=2.33 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=2.92 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=2.33 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3005ms,rtt min\/avg\/max\/mdev = 2.337\/2.784\/3.535\/0.500 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:53:31",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "129",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=2.40 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=2.49 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=8.12 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=5.13 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 2.400\/4.539\/8.127\/2.344 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:53:27",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "128",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=54.2 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=4.96 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=4.60 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=3.75 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3004ms,rtt min\/avg\/max\/mdev = 3.759\/16.904\/54.285\/21.586 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:53:23",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "127",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=3.53 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=4.56 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=2.55 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=2.56 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3004ms,rtt min\/avg\/max\/mdev = 2.553\/3.304\/4.564\/0.828 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:49:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "126",
+            "ip": "192.168.247.237",
+            "mac": "e4:5f:01:09:20:89",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,64 bytes from 192.168.247.237: icmp_seq=1 ttl=64 time=2.75 ms,64 bytes from 192.168.247.237: icmp_seq=2 ttl=64 time=2.93 ms,64 bytes from 192.168.247.237: icmp_seq=3 ttl=64 time=2.64 ms,64 bytes from 192.168.247.237: icmp_seq=4 ttl=64 time=2.48 ms,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 2.482\/2.705\/2.939\/0.177 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:49:43",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   },
+   {
+      "ip": "192.168.247.238",
+      "mac": "e4:5f:01:09:20:89ss",
+      "status": true,
+      "name_station": "Qualidade_03",
+      "name_function": "Chech SN",
+      "logRede": [{
+            "id": "118",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=56.7 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=27.2 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=47.1 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=71.7 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 27.245\/50.737\/71.768\/16.148 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:48:11",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "112",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=567 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=3.84 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=6.50 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=683 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3002ms,rtt min\/avg\/max\/mdev = 3.847\/315.455\/683.476\/312.956 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:47:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "5",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,From 192.168.247.64 icmp_seq=1 Destination Host Unreachable,From 192.168.247.64 icmp_seq=2 Destination Host Unreachable,From 192.168.247.64 icmp_seq=3 Destination Host Unreachable,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3053ms,pipe 4",
+            "status": "1",
+            "created_at": "2021-08-25 09:02:58",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   },
+   {
+      "ip": "192.168.247.238",
+      "mac": "e4:5f:01:09:20:89ss",
+      "status": true,
+      "name_station": "Qualidade_04",
+      "name_function": "Chech SN",
+      "logRede": [{
+            "id": "118",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=56.7 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=27.2 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=47.1 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=71.7 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 27.245\/50.737\/71.768\/16.148 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:48:11",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "112",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=567 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=3.84 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=6.50 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=683 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3002ms,rtt min\/avg\/max\/mdev = 3.847\/315.455\/683.476\/312.956 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:47:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "5",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,From 192.168.247.64 icmp_seq=1 Destination Host Unreachable,From 192.168.247.64 icmp_seq=2 Destination Host Unreachable,From 192.168.247.64 icmp_seq=3 Destination Host Unreachable,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3053ms,pipe 4",
+            "status": "1",
+            "created_at": "2021-08-25 09:02:58",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   },
+   {
+      "ip": "192.168.247.238",
+      "mac": "e4:5f:01:09:20:89ss",
+      "status": true,
+      "name_station": "Qualidade_05",
+      "name_function": "Chech SN",
+      "logRede": [{
+            "id": "118",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=56.7 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=27.2 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=47.1 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=71.7 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 27.245\/50.737\/71.768\/16.148 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:48:11",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "112",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=567 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=3.84 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=6.50 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=683 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3002ms,rtt min\/avg\/max\/mdev = 3.847\/315.455\/683.476\/312.956 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:47:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "5",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,From 192.168.247.64 icmp_seq=1 Destination Host Unreachable,From 192.168.247.64 icmp_seq=2 Destination Host Unreachable,From 192.168.247.64 icmp_seq=3 Destination Host Unreachable,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3053ms,pipe 4",
+            "status": "1",
+            "created_at": "2021-08-25 09:02:58",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   },
+   {
+      "ip": "192.168.247.238",
+      "mac": "e4:5f:01:09:20:89ss",
+      "status": true,
+      "name_station": "Qualidade_06",
+      "name_function": "Chech SN",
+      "logRede": [{
+            "id": "118",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=56.7 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=27.2 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=47.1 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=71.7 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 27.245\/50.737\/71.768\/16.148 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:48:11",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "112",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=567 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=3.84 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=6.50 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=683 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3002ms,rtt min\/avg\/max\/mdev = 3.847\/315.455\/683.476\/312.956 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:47:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "5",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,From 192.168.247.64 icmp_seq=1 Destination Host Unreachable,From 192.168.247.64 icmp_seq=2 Destination Host Unreachable,From 192.168.247.64 icmp_seq=3 Destination Host Unreachable,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3053ms,pipe 4",
+            "status": "1",
+            "created_at": "2021-08-25 09:02:58",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   },
+   {
+      "ip": "192.168.247.238",
+      "mac": "e4:5f:01:09:20:89ss",
+      "status": true,
+      "name_station": "Qualidade_07",
+      "name_function": "Chech SN",
+      "logRede": [{
+            "id": "118",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=56.7 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=27.2 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=47.1 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=71.7 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 27.245\/50.737\/71.768\/16.148 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:48:11",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "112",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=567 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=3.84 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=6.50 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=683 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3002ms,rtt min\/avg\/max\/mdev = 3.847\/315.455\/683.476\/312.956 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:47:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "5",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,From 192.168.247.64 icmp_seq=1 Destination Host Unreachable,From 192.168.247.64 icmp_seq=2 Destination Host Unreachable,From 192.168.247.64 icmp_seq=3 Destination Host Unreachable,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3053ms,pipe 4",
+            "status": "1",
+            "created_at": "2021-08-25 09:02:58",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   },
+   {
+      "ip": "192.168.247.238",
+      "mac": "e4:5f:01:09:20:89ss",
+      "status": true,
+      "name_station": "Qualidade_08",
+      "name_function": "Chech SN",
+      "logRede": [{
+            "id": "118",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=56.7 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=27.2 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=47.1 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=71.7 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 27.245\/50.737\/71.768\/16.148 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:48:11",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "112",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=567 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=3.84 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=6.50 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=683 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3002ms,rtt min\/avg\/max\/mdev = 3.847\/315.455\/683.476\/312.956 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:47:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "5",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,From 192.168.247.64 icmp_seq=1 Destination Host Unreachable,From 192.168.247.64 icmp_seq=2 Destination Host Unreachable,From 192.168.247.64 icmp_seq=3 Destination Host Unreachable,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3053ms,pipe 4",
+            "status": "1",
+            "created_at": "2021-08-25 09:02:58",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   },
+   {
+      "ip": "192.168.247.238",
+      "mac": "e4:5f:01:09:20:89ss",
+      "status": true,
+      "name_station": "Qualidade_09",
+      "name_function": "Chech SN",
+      "logRede": [{
+            "id": "118",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=56.7 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=27.2 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=47.1 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=71.7 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 27.245\/50.737\/71.768\/16.148 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:48:11",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "112",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=567 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=3.84 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=6.50 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=683 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3002ms,rtt min\/avg\/max\/mdev = 3.847\/315.455\/683.476\/312.956 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:47:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "5",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,From 192.168.247.64 icmp_seq=1 Destination Host Unreachable,From 192.168.247.64 icmp_seq=2 Destination Host Unreachable,From 192.168.247.64 icmp_seq=3 Destination Host Unreachable,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3053ms,pipe 4",
+            "status": "1",
+            "created_at": "2021-08-25 09:02:58",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   },
+   {
+      "ip": "192.168.247.238",
+      "mac": "e4:5f:01:09:20:89ss",
+      "status": true,
+      "name_station": "Qualidade_10",
+      "name_function": "Chech SN",
+      "logRede": [{
+            "id": "118",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=56.7 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=27.2 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=47.1 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=71.7 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3003ms,rtt min\/avg\/max\/mdev = 27.245\/50.737\/71.768\/16.148 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:48:11",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "112",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.238 (192.168.247.238) 56(84) bytes of data.,64 bytes from 192.168.247.238: icmp_seq=1 ttl=64 time=567 ms,64 bytes from 192.168.247.238: icmp_seq=2 ttl=64 time=3.84 ms,64 bytes from 192.168.247.238: icmp_seq=3 ttl=64 time=6.50 ms,64 bytes from 192.168.247.238: icmp_seq=4 ttl=64 time=683 ms,,--- 192.168.247.238 ping statistics ---,4 packets transmitted, 4 received, 0% packet loss, time 3002ms,rtt min\/avg\/max\/mdev = 3.847\/315.455\/683.476\/312.956 ms",
+            "status": "0",
+            "created_at": "2021-08-25 15:47:47",
+            "updated_at": null,
+            "deleted_at": null
+         },
+         {
+            "id": "5",
+            "ip": "192.168.247.238",
+            "mac": "e4:5f:01:09:20:89ss",
+            "log": "PING 192.168.247.237 (192.168.247.237) 56(84) bytes of data.,From 192.168.247.64 icmp_seq=1 Destination Host Unreachable,From 192.168.247.64 icmp_seq=2 Destination Host Unreachable,From 192.168.247.64 icmp_seq=3 Destination Host Unreachable,,--- 192.168.247.237 ping statistics ---,4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3053ms,pipe 4",
+            "status": "1",
+            "created_at": "2021-08-25 09:02:58",
+            "updated_at": null,
+            "deleted_at": null
+         }
+      ],
+      "logDados": [
+
+      ]
+   }
+]

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00b6de;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_3434" data-name="Grupo 3434" transform="translate(21665 19497)">
+    <rect id="Retângulo_2762" data-name="Retângulo 2762" class="cls-1" width="120" height="120" transform="translate(-21665 -19497)"/>
+    <g id="widgets_black_24dp" transform="translate(-21650 -19482)">
+      <path id="Caminho_11615" data-name="Caminho 11615" class="cls-2" d="M0,0H90V90H0Z"/>
+      <path id="Caminho_11616" data-name="Caminho 11616" class="cls-3" d="M54.225,12.3,64.838,22.915,54.225,33.528,43.612,22.915,54.225,12.3M25.5,14.1v15h-15v-15h15M63,51.6v15H48v-15H63m-37.5,0v15h-15v-15h15M54.225,1.69,33,22.878,54.225,44.1,75.45,22.878,54.225,1.69ZM33,6.6H3v30H33ZM70.5,44.1h-30v30h30ZM33,44.1H3v30H33Z" transform="translate(8.25 4.647)"/>
+    </g>
+  </g>
+</svg>
