@@ -6,7 +6,7 @@ import ISidebar from '../../../interfaces/organisms/Sidebar';
 import { Link } from 'react-router-dom';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import SubMenu from '../../molecules/sub-menu/Index';
-import Multilaser from '../../../assets/img/multilaser-dark.svg';
+import Git from '../../../assets/img/icons11-github-65.svg';
 const { useBreakpoint } = Grid;
 
 const Index: React.FC<ISidebar> = (props) => {
@@ -68,7 +68,7 @@ const Index: React.FC<ISidebar> = (props) => {
             fixed={!screens.md}
         >
             <div style={{display: 'flex', justifyContent: 'center'}}>
-                <img src={Multilaser} alt="Logo" width={165} height={61}/>
+                <img src={Git} alt="Logo" width={165} height={61}/>
             </div>
             <Menu defaultSelectedKeys={['1']} mode="inline">
                 {handleMenuItem()}

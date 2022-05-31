@@ -1,29 +1,18 @@
-import rasOverIgm from '../assets/img/rasp_overview.svg';
-import rasDispIgm from '../assets/img/rasp_disponivel.svg';
+import repository from '../assets/img/icons8-repository-100.png';
+import favorites from '../assets/img/icons8-favoritos.svg';
 
 const data = [
     {
-        key: 'overview',
-        title: 'Visão geral',
-        icon: rasOverIgm,
-        path: '/overview'
+        key: 'repository',
+        title: 'Repositorios',
+        icon: repository,
+        path: '/repository'
     },
-    {
-        key: 'rasps',
-        title: 'Raspberry',
-        icon: rasDispIgm,
-        items: [
-            {
-                key: 'rasp',
-                title: 'Disponíveis',
-                path: '/rasp'
-            },
-            {
-                key: 'sync-raspberry',
-                title: 'Configurados',
-                path: '/sync-raspberry'
-            }
-        ]
-    }
+     {
+        key: 'favorites',
+        title: 'Favorites',
+        icon: favorites,
+        path: '/favorites'
+    },
 ]
 export default data;

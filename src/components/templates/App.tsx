@@ -8,7 +8,7 @@ import { Header, Content, Container, LayoutBody, RightHeader } from './App.style
 import { PoweroffOutlined } from '@ant-design/icons';
 import { Button, Popconfirm, Row, Col, Spin } from 'antd';
 import { clearLocalStorages } from '../../services/LocalStorage';
-import Logo from '../../assets/img/logo-ml.svg';
+import Logo from '../../assets/img/icons8-github-64.svg';
 
 const App: React.FC = () => {
     const [isLoading, setIsLoading] = useState(false);

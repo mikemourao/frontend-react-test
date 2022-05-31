@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Col, Typography, Table, Input } from 'antd';
 import { Container, Content, IconButton } from '../components/templates/crud/Index.style';
-import { IIconButton } from '../../src/interfaces/organisms/Table';
+import { IIconButton } from '../interfaces/organisms/Table';
 import { ReloadOutlined } from '@ant-design/icons';
-import RaspConfiguredService from '../../src/services/languages';
+import RaspConfiguredService from '../services/languages';
 
 
 const Index: React.FC = () => {
