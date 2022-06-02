@@ -12,9 +12,21 @@ const RaspConfigured = (() => {
         ]
     }
 
-    const getJavaScript = async() => {
+    const getJavaScript = async(full_name: any) => {
         let response = await api.get('');
         return response;
+    }
+
+    const getFavorite = async (value: any, language: string) => {
+        let response = await api.get(`https://api.github.com/search/repositories?q=${language}&value=${value}`);
+       
+        return response.data.items;
+    }
+
+    const getLocalFavorite = async (value: any, language: string) => {
+        let response = await api.get(`https://api.github.com/search/repositories?q=${value}&value=${language}`);
+       
+        return response.data.items;
     }
 
     const post = async(body: IRaspConfigured) => {
@@ -27,17 +39,18 @@ const RaspConfigured = (() => {
 
     const onSearch = async (language: string) => {
         let response = await api.get(`https://api.github.com/search/repositories?q=${language}`);
-        console.log(response.data.items);
-        
+       
         return response.data.items;
     }
 
     return {
         getColumns,
+        getFavorite,
         getJavaScript,
         post,
         getSearch,
-        onSearch
+        onSearch,
+        getLocalFavorite
     }
 })();
 export default RaspConfigured;

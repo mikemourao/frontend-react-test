@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Col, Typography, Table, Input } from 'antd';
 import { Container, Content, IconButton } from '../components/templates/crud/Index.style';
 import { IIconButton } from '../interfaces/organisms/Table';
-import { ReloadOutlined } from '@ant-design/icons';
+import { ReloadOutlined, StarOutlined } from '@ant-design/icons';
 import RaspConfiguredService from '../services/languages';
 
 
@@ -13,7 +13,10 @@ const Index: React.FC = () => {
         isModalVisible: false,
         isFilter: false,
         language: '',
-        languageSelect: ''
+        languageSelect: '',
+        idFavorite: [],
+        Favorite: [],
+        languageFavorite: []
     })
 
 
@@ -27,26 +30,52 @@ const Index: React.FC = () => {
         _setState(prev => ({ ...prev, ...newValue }));
     }
 
-
-    const handleServiceGet = async () => {
+    const handleColumns = (): any => {
+        return [
+            ...getColumns(),
+        ]
+    }
+    
+    const handleServiceGet = async (full_name: any) => {
         setState({ isLoading: true });
 
-        let response = await getJavaScript();
+        let response = await getJavaScript(full_name);     
+        
+        console.log(response);
+        
 
-        setState({ isLoading: false, dataSource: response.data['items'] });
+        setState({ isLoading: false, dataSource: response.data['items']});
     }
 
-    const handleOnSearch = async (language: string) => {
-        if (language !== "") {
-            let res = await onSearch(language);
-            setState({ dataSource: res, languageSelect: language });
-        } else {
+    const handleOnSearch = async (language: any) => {
 
+        state.languageFavorite = language
+
+        if (language !== "") {
+            let res = await onSearch(language);    
+
+            setState({ dataSource: res, languageSelect: language });
+            
         }
     }
 
+    const handleFavorite = async () => {
+
+        var arr = [];       
+
+        if (localStorage.favorite){
+            arr = JSON.parse(localStorage.getItem('favorite')!);
+        }
+
+        let newFavorite = (document.getElementById("v") as HTMLInputElement).value;
+        arr.push(newFavorite);
+        (document.getElementById("v") as HTMLInputElement).value = "";
+        localStorage.favorite = JSON.stringify(arr);
+           
+    }
+
     useEffect(() => {
-        handleServiceGet();
+        
     }, []);
 
     return (
@@ -57,13 +86,14 @@ const Index: React.FC = () => {
                 </Col>
                 <Content xs={24} sm={18} md={10} lg={10} xl={10}>
                     <IconButton {...iconButtonCommonProps} icon={<ReloadOutlined />} onClick={handleServiceGet} marginRight />
+                    <IconButton {...iconButtonCommonProps} icon={<StarOutlined />} onClick={handleFavorite} marginRight />
                 </Content>
                 <Col xs={24} sm={6} md={4} lg={4} xl={4}>
-                    <Input.Search allowClear style={{ width: '100%' }} placeholder={getSearch().label} onSearch={handleOnSearch} />
+                    <Input.Search id="v" allowClear style={{ width: '100%' }} placeholder={getSearch().label} onSearch={handleOnSearch} />
                 </Col>
             </Container>
             <Table
-                columns={getColumns()}
+                columns={handleColumns()}
                 dataSource={state.dataSource}
                 size="small"
                 scroll={{ x: 'max-content' }}
