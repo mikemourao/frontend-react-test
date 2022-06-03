@@ -1,20 +1,58 @@
 
 
 .ant-table-filter-trigger.active {
-    color: #88eaff;
+    color: #6664ff;
     font-size: 15px;
 }
 
 .ant-table-filter-trigger {
-    color: white;
+    color: #120052;
     font-size: 14px;
 }
 
 .ant-table-thead > tr > th{
-    background-color: #00b6de !important;
+    background-color: #355755 !important;
     color: white !important;
-  }
+    border-color: #213635;
+}
 
-  /* .ant-table-tbody > tr {
-      box-shadow: 10px 5px 5px grey;
-  } */
+.ant-table-expanded-row-fixed {
+    background-color: #58928e !important;
+}
+.ant-table-cell {
+    background-color: #58928e !important;
+}
+.ant-pagination-item a {
+    color: aliceblue;
+}
+.ant-pagination-prev button, .ant-pagination-next button {
+    color: aliceblue;
+}
+.ant-pagination-prev button, .ant-pagination-prev button {
+    color: aliceblue;
+}
+.ant-pagination-item-active {
+    background-color: #355755;
+}
+
+.ant-btn-round.ant-btn-icon-only {
+    width: auto;
+    color: #b2d4d1;
+    background-color: #355755;
+}
+.ant-card-body {
+    background-color: #355755;
+    color: 'white';
+}
+.ant-card-head-title {
+    background-color: #355755;
+}
+.ant-card-head {
+    background-color: #355755;
+}
+.ant-card ant-card-bordered{
+    background-color: #355755;
+}
+.ant-card ant-card-bordered ant-card-small {
+    background-color: #355755;
+}

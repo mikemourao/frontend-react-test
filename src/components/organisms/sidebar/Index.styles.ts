@@ -19,6 +19,7 @@ export const Sider = styled(Layout.Sider)<ISider>`
 export const Menu = styled(MenuAntd)`
     background-color: ${Color.backgroundColor};
     border-right: unset;
+    color: #00ebe3;
 `;
 
 export const Trigger = styled.div`

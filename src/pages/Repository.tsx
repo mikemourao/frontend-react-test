@@ -91,7 +91,7 @@ const Index: React.FC = () => {
         <div>
             <Container  style={{ marginTop: 20 }} gutter={[8, 8]}>
                 <Col xs={24} sm={24} md={10} lg={10} xl={10}>
-                    <Typography.Title style={{ marginLeft: 30 }} level={4}>Lista de repositorios {state.languageSelect}</Typography.Title>
+                    <Typography.Title style={{ marginLeft: 30, color: 'white' }} level={4}>Lista de repositorios {state.languageSelect}</Typography.Title>
                 </Col>
                 <Content xs={24} sm={18} md={10} lg={10} xl={10}>
                     <Tooltip title="Reload"><IconButton {...iconButtonCommonProps} icon={<ReloadOutlined />} onClick={handleServiceGet} marginRight /></Tooltip>

@@ -25,7 +25,7 @@ const Index: React.FC = () => {
         <div style={{ margin: 25 }}>
             <div style={{ marginBottom: 10 }}>
 
-                <Card title={<b>Um pouco sobre o conceito de Linguagem de Programação.</b>}>
+                <Card title={<b style={{color: 'white'}}>Um pouco sobre o conceito de Linguagem de Programação.</b>} style={{ color: 'white', fontSize: 15 }}>
                     A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte -
                     que pode ser compilado e transformado em um programa de computador, ou usado como script interpretado - que informará instruções de processamento ao
                     computador. Permite que um programador especifique precisamente quais os dados que o computador irá atuar, como estes dados serão armazenados
@@ -37,14 +37,16 @@ const Index: React.FC = () => {
             
             <div style={{ marginTop: 20 }}>
 
-                <Button id="v" onClick={showItems}>{<b>Exibir Lista de Linguagens Favoritas</b>}</Button>
+                <Button id="v" style={{color: '#00ebe3', backgroundColor: '#355755'}} onClick={showItems}>{<b>Exibir Lista de Linguagens Favoritas</b>}</Button>
                 <Card id="d"
                     size="small"
                     style={{
                         width: "30%",
                         textAlign: 'center',
+                        color: 'white',
                         fontSize: 16,
-                        marginTop: 10
+                        marginTop: 10,
+                        backgroundColor: '#355755'
                     }}>
                 </Card>
 
