@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Col, Typography, Table, Input } from 'antd';
+import { Col, Typography, Table, Input, Tooltip, notification } from 'antd';
 import { Container, Content, IconButton } from '../components/templates/crud/Index.style';
 import { IIconButton } from '../interfaces/organisms/Table';
 import { ReloadOutlined, StarOutlined } from '@ant-design/icons';
@@ -63,9 +63,9 @@ const Index: React.FC = () => {
 
         var arr = [];   
 
-        var texto = (document.getElementById("v") as HTMLInputElement).value;
+        var valueInput = (document.getElementById("v") as HTMLInputElement).value;
 
-        if(texto !== ''){
+        if(valueInput !== ''){
             if (localStorage.favorite){
                 arr = JSON.parse(localStorage.getItem('favorite')!);
             }
@@ -74,6 +74,10 @@ const Index: React.FC = () => {
             arr.push(newFavorite);
             (document.getElementById("v") as HTMLInputElement);
             localStorage.favorite = JSON.stringify(arr);
+
+            notification.success({ message: 'Salvo como favorito!!!' })
+        }else {
+            notification.error({ message: 'Informe uma linguagem de Programação!' })
         }
 
        
@@ -90,8 +94,8 @@ const Index: React.FC = () => {
                     <Typography.Title style={{ marginLeft: 30 }} level={4}>Lista de repositorios {state.languageSelect}</Typography.Title>
                 </Col>
                 <Content xs={24} sm={18} md={10} lg={10} xl={10}>
-                    <IconButton {...iconButtonCommonProps} icon={<ReloadOutlined />} onClick={handleServiceGet} marginRight />
-                    <IconButton {...iconButtonCommonProps} icon={<StarOutlined />} onClick={handleFavorite} marginRight />
+                    <Tooltip title="Reload"><IconButton {...iconButtonCommonProps} icon={<ReloadOutlined />} onClick={handleServiceGet} marginRight /></Tooltip>
+                    <Tooltip title="Favoritar"><IconButton {...iconButtonCommonProps} icon={<StarOutlined />} onClick={handleFavorite} marginRight /></Tooltip>
                 </Content>
                 <Col xs={24} sm={6} md={4} lg={4} xl={4}>
                     <Input.Search id="v" name="name" allowClear style={{ width: '100%' }} placeholder={getSearch().label} onSearch={handleOnSearch} />

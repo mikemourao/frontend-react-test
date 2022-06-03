@@ -1,5 +1,4 @@
 import {api} from '../utils/api';
-import IRaspConfigured from '../interfaces/models/RaspConfigured';
 
 const RaspConfigured = (() => {
     
