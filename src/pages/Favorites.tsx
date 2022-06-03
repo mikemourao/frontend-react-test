@@ -37,12 +37,13 @@ const Index: React.FC = () => {
             
             <div style={{ marginTop: 20 }}>
 
-                <Button id="v" onClick={showItems}>Exibir Lista de Linguagens Favoritas</Button>
+                <Button id="v" onClick={showItems}>{<b>Exibir Lista de Linguagens Favoritas</b>}</Button>
                 <Card id="d"
                     size="small"
                     style={{
                         width: "30%",
                         textAlign: 'center',
+                        fontSize: 16,
                         marginTop: 10
                     }}>
                 </Card>
