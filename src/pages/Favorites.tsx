@@ -1,57 +1,56 @@
-import React, { useState, useEffect } from 'react';
-import { Col, Typography, Card, Input, Button } from 'antd';
-import { Container, Content, IconButton } from '../components/templates/crud/Index.style';
-import { IIconButton } from '../interfaces/organisms/Table';
-import { ReloadOutlined, StarOutlined } from '@ant-design/icons';
-import FavoriteService from '../services/languages';
+/* eslint-disable react/jsx-no-target-blank */
+import React, { useEffect } from 'react';
+import { Card, Button } from 'antd';
 
 
 const Index: React.FC = () => {
-    const [state, _setState] = useState({
-        dataSource: [],
-        isLoading: false,
-        isModalVisible: false,
-    })
 
+    function showItems() {
 
-    const { getColumns, getJavaScript, onSearch, getSearch } = FavoriteService;
- 
-    const setState = (newValue: any) => {
-        _setState(prev => ({ ...prev, ...newValue }));
-    }
-
-    function showItems(){
-
-        var arr = []; 
+        var arr = [];
         let resultDIV = document.getElementById('d');
         resultDIV!.innerHTML = "";
-        if (localStorage.favorite){             
-           arr = JSON.parse(localStorage.getItem('favorite')!); 
+        if (localStorage.favorite) {
+            arr = JSON.parse(localStorage.getItem('favorite')!);
         }
 
-        for(var i in arr){
+        for (var i in arr) {
             let p = document.createElement("p");
             p.innerHTML = arr[i];
             resultDIV!.append(p);
         }
-      
-
-        console.log(arr);
-        
     }
 
-    useEffect(() => {
-        
-    }, []);
-
     return (
-        <div>
-            <Button id="v" onClick={showItems}>Show</Button>
-        <div id="d">
+        <div style={{ margin: 25 }}>
+            <div style={{ marginBottom: 10 }}>
+
+                <Card title={<b>Um pouco sobre o conceito de Linguagem de Programação.</b>}>
+                    A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte -
+                    que pode ser compilado e transformado em um programa de computador, ou usado como script interpretado - que informará instruções de processamento ao
+                    computador. Permite que um programador especifique precisamente quais os dados que o computador irá atuar, como estes dados serão armazenados
+                    ou transmitidos e, quais ações devem ser tomadas de acordo com as circunstâncias. Linguagens de programação podem ser usadas para expressar algoritmos com
+                    precisão. <a href='https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o' target="_blank">Saiba mais no site...</a>
+                </Card>
+
+            </div>
             
+            <div style={{ marginTop: 20 }}>
+
+                <Button id="v" onClick={showItems}>Exibir Lista de Linguagens Favoritas</Button>
+                <Card id="d"
+                    size="small"
+                    style={{
+                        width: "30%",
+                        textAlign: 'center',
+                        marginTop: 10
+                    }}>
+                </Card>
+
+            </div>
+
         </div>
-        </div>
-        
+
     )
 }
 
