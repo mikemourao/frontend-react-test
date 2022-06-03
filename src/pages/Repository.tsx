@@ -61,17 +61,22 @@ const Index: React.FC = () => {
 
     const handleFavorite = async () => {
 
-        var arr = [];       
+        var arr = [];   
 
-        if (localStorage.favorite){
-            arr = JSON.parse(localStorage.getItem('favorite')!);
+        var texto = (document.getElementById("v") as HTMLInputElement).value;
+
+        if(texto !== ''){
+            if (localStorage.favorite){
+                arr = JSON.parse(localStorage.getItem('favorite')!);
+            }
+    
+            let newFavorite = (document.getElementById("v") as HTMLInputElement).value;
+            arr.push(newFavorite);
+            (document.getElementById("v") as HTMLInputElement);
+            localStorage.favorite = JSON.stringify(arr);
         }
 
-        let newFavorite = (document.getElementById("v") as HTMLInputElement).value;
-        arr.push(newFavorite);
-        (document.getElementById("v") as HTMLInputElement).value = "";
-        localStorage.favorite = JSON.stringify(arr);
-           
+       
     }
 
     useEffect(() => {
@@ -89,7 +94,7 @@ const Index: React.FC = () => {
                     <IconButton {...iconButtonCommonProps} icon={<StarOutlined />} onClick={handleFavorite} marginRight />
                 </Content>
                 <Col xs={24} sm={6} md={4} lg={4} xl={4}>
-                    <Input.Search id="v" allowClear style={{ width: '100%' }} placeholder={getSearch().label} onSearch={handleOnSearch} />
+                    <Input.Search id="v" name="name" allowClear style={{ width: '100%' }} placeholder={getSearch().label} onSearch={handleOnSearch} />
                 </Col>
             </Container>
             <Table

@@ -29,12 +29,8 @@ const RaspConfigured = (() => {
         return response.data.items;
     }
 
-    const post = async(body: IRaspConfigured) => {
-        return await api.post('solder-paste/provider/', body);
-    }
-
     const getSearch = () => {
-        return { inputName: "serial", label: "Informe a linguagem de programação" }
+        return { inputName: "serial", label: "Informe a linguagem de programação"}
     }
 
     const onSearch = async (language: string) => {
@@ -47,7 +43,6 @@ const RaspConfigured = (() => {
         getColumns,
         getFavorite,
         getJavaScript,
-        post,
         getSearch,
         onSearch,
         getLocalFavorite
