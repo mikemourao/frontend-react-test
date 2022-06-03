@@ -46,7 +46,9 @@ const Index: React.FC = () => {
                         color: 'white',
                         fontSize: 16,
                         marginTop: 10,
-                        backgroundColor: '#355755'
+                        backgroundColor: '#355755',
+                        overflowY: "scroll",
+                        height: 500,
                     }}>
                 </Card>
 

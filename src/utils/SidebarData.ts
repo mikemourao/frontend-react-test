@@ -4,13 +4,13 @@ import favorites from '../assets/img/icons8-favoritos.svg';
 const data = [
     {
         key: 'repository',
-        title: 'Repositorios',
+        title: 'Repositórios',
         icon: repository,
         path: '/repository'
     },
      {
         key: 'favorites',
-        title: 'Favorites',
+        title: 'Favoritos',
         icon: favorites,
         path: '/favorites'
     },
