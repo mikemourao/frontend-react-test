@@ -16,18 +16,6 @@ const RaspConfigured = (() => {
         return response;
     }
 
-    const getFavorite = async (value: any, language: string) => {
-        let response = await api.get(`https://api.github.com/search/repositories?q=${language}&value=${value}`);
-       
-        return response.data.items;
-    }
-
-    const getLocalFavorite = async (value: any, language: string) => {
-        let response = await api.get(`https://api.github.com/search/repositories?q=${value}&value=${language}`);
-       
-        return response.data.items;
-    }
-
     const getSearch = () => {
         return { inputName: "serial", label: "Informe a linguagem de programação"}
     }
@@ -40,11 +28,9 @@ const RaspConfigured = (() => {
 
     return {
         getColumns,
-        getFavorite,
         getJavaScript,
         getSearch,
         onSearch,
-        getLocalFavorite
     }
 })();
 export default RaspConfigured;

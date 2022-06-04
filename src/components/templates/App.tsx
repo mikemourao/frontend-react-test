@@ -12,7 +12,9 @@ import Logo from '../../assets/img/icons8-github-64.svg';
 const App: React.FC = () => {
     const [isLoading, setIsLoading] = useState(false);
 
-    const home = async () => {
+    //Function to redirect the main screen
+
+    const handlerHome = async () => {
         setIsLoading(true);
         setTimeout(()=> {
             setIsLoading(false);
@@ -33,7 +35,7 @@ const App: React.FC = () => {
                                     <img src={Logo} alt="Logo" width={40} height={60}/>
                                 </Col>
                                 <RightHeader span={12}>
-                                    <Button type='link' icon= {<HomeOutlined style={{fontSize: 20 }} onClick={home}/> }></Button>  
+                                    <Button type='link' icon= {<HomeOutlined style={{fontSize: 20 }} onClick={handlerHome}/> }></Button>  
                                 </RightHeader>
                             </Row>
                         </Header>

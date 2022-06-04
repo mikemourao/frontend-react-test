@@ -40,12 +40,11 @@ const Index: React.FC = () => {
         setState({ isLoading: true });
 
         let response = await getJavaScript(full_name);     
-        
-        console.log(response);
-        
 
         setState({ isLoading: false, dataSource: response.data['items']});
     }
+
+    //Function to search language
 
     const handleOnSearch = async (language: any) => {
 
@@ -59,6 +58,8 @@ const Index: React.FC = () => {
         }
     }
 
+    //Function to save to localStorage
+    
     const handleFavorite = async () => {
 
         var arr = [];   

@@ -5,7 +5,9 @@ import { Card, Button } from 'antd';
 
 const Index: React.FC = () => {
 
-    function showItems() {
+    //Function to display localStorage data
+
+    const showItems = () => {
 
         var arr = [];
         let resultDIV = document.getElementById('d');
@@ -13,7 +15,7 @@ const Index: React.FC = () => {
         if (localStorage.favorite) {
             arr = JSON.parse(localStorage.getItem('favorite')!);
         }
-
+        //Create paragraphs to display on Card
         for (var i in arr) {
             let p = document.createElement("p");
             p.innerHTML = arr[i];
@@ -37,7 +39,7 @@ const Index: React.FC = () => {
             
             <div style={{ marginTop: 20 }}>
 
-                <Button id="v" style={{color: '#00ebe3', backgroundColor: '#355755'}} onClick={showItems}>{<b>Exibir Lista de Linguagens Favoritas</b>}</Button>
+                <Button id="v" style={{color: '#00ebe3', backgroundColor: '#355755'}} onClick={showItems}>{<b>Exibir Lista de Pesquisas Favoritadas</b>}</Button>
                 <Card id="d"
                     size="small"
                     style={{
