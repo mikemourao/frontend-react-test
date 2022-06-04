@@ -108,8 +108,6 @@ const Index: React.FC = () => {
                 size="small"
                 scroll={{ x: 'max-content' }}
                 loading={state.isLoading}
-                pagination={true}
-
             />
         </div>
     )
